@@ -40,8 +40,8 @@
 	        "user_code":"0009130",
 	        "timestamp":"{ts '2020-03-27 10:35:31'}"
 	    },
-	    "students":{
-	        "1":{
+	    "students":[
+	        {
 	            "dol":"",
 	            "surname":"Clark",
 	            "expiry":"",
@@ -62,7 +62,7 @@
 	            "house":"BA",
 	            "doe":"2018-03-30 00:00:00.0"
 	        }
-	    }
+	    ]
 	}
     ```
  

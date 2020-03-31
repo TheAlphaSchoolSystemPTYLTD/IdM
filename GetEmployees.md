@@ -36,8 +36,8 @@
 
     ```javascript
     {
-	    "employees":{
-	        "1":{
+	    "employees":[
+	        {
 	            "initials":"P",
 	            "suffix":"",
 	            "surname":"Baskins",
@@ -56,7 +56,7 @@
 	            "username":"jdoe",
 	            "title":"Mr"
 	        }
-	    },
+	    ],
 	    "token":{
 	        "user_code":1000002,
 	        "timestamp":"{ts '2020-03-27 10:41:50'}"

@@ -38,20 +38,20 @@
     {
 	    "parents":[
 	        {
-	            "000007":{
-	                "splitFamily1":{
+	            "000007":[
+	                {
 	                    "web_access":true,
 	                    "user_code":"000007",
 	                    "person2":{
-	                        "f_initials":"J",
-	                        "f_first_name":"James",
-	                        "f_suffix":"",
-	                        "f_description":"Father/Parent 2",
-	                        "f_other_name":"",
-	                        "f_preferred_name":"James",
+	                        "initials":"J",
+	                        "suffix":"",
+	                        "surname":"Allen",
+	                        "description":"Father/Parent 2",
+	                        "preferred_name":"James",
+	                        "other_name":"",
+	                        "title":"",
 	                        "e_mail":"",
-	                        "f_title":"",
-	                        "f_surname":"Allen"
+	                        "first_name":"James"
 	                    },
 	                    "address":{
 	                        "1":{
@@ -64,17 +64,17 @@
 	                        }
 	                    },
 	                    "person1":{
-	                        "m_preferred_name":"Judy",
-	                        "m_description":"Mother/Parent 1",
-	                        "m_other_name":"",
-	                        "m_surname":"Allen",
-	                        "m_title":"",
-	                        "m_suffix":"",
-	                        "m_initials":"J",
+	                        "initials":"J",
+	                        "suffix":"",
+	                        "surname":"Allen",
+	                        "description":"Mother/Parent 1",
+	                        "preferred_name":"Judy",
+	                        "other_name":"",
+	                        "title":"",
 	                        "e_mail":"",
-	                        "m_first_name":"Judy"
+	                        "first_name":"Judy"
 	                    },
-	                    "username":"fwfwrfef",
+	                    "username":"agnew",
 	                    "sfa_num":1,
 	                    "students":[
 	                        "0009073",
@@ -84,19 +84,19 @@
 	                        "0009226"
 	                    ]
 	                },
-	                "splitFamily2":{
+	                {
 	                    "web_access":true,
 	                    "user_code":"000007",
 	                    "person2":{
-	                        "f_initials":"J",
-	                        "f_first_name":"James",
-	                        "f_suffix":"",
-	                        "f_description":"Father/Parent 2",
-	                        "f_other_name":"",
-	                        "f_preferred_name":"James",
+	                        "initials":"J",
+	                        "suffix":"",
+	                        "surname":"Allen",
+	                        "description":"Father/Parent 2",
+	                        "preferred_name":"James",
+	                        "other_name":"",
+	                        "title":"",
 	                        "e_mail":"",
-	                        "f_title":"",
-	                        "f_surname":"Allen"
+	                        "first_name":"James"
 	                    },
 	                    "address":{
 	                        "7":{
@@ -105,15 +105,15 @@
 	                        }
 	                    },
 	                    "person1":{
-	                        "m_preferred_name":"Judy",
-	                        "m_description":"Mother/Parent 1",
-	                        "m_other_name":"",
-	                        "m_surname":"Allen",
-	                        "m_title":"",
-	                        "m_suffix":"",
-	                        "m_initials":"J",
+	                        "initials":"J",
+	                        "suffix":"",
+	                        "surname":"Allen",
+	                        "description":"Mother/Parent 1",
+	                        "preferred_name":"Judy",
+	                        "other_name":"",
+	                        "title":"",
 	                        "e_mail":"",
-	                        "m_first_name":"Judy"
+	                        "first_name":"Judy"
 	                    },
 	                    "username":"adfgaddg",
 	                    "sfa_num":2,
@@ -124,12 +124,12 @@
 	                        "0009226"
 	                    ]
 	                }
-	            }
+	            ]
 	        }
 	    ],
 	    "token":{
 	        "user_code":"000007",
-	        "timestamp":"{ts '2020-03-30 09:59:30'}"
+	        "timestamp":"{ts '2020-03-31 11:02:17'}"
 	    }
 	}
     ```

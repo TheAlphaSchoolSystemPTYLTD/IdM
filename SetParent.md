@@ -74,6 +74,11 @@
     "username": "'username' required for creating a split family."
     ```
 
+    `username` used by a split family
+    ```javascript
+    "username": "'username' is used by a split family."
+    ```
+
     `username` not supplied for a normal family
     ```javascript
     "username": "'username' required for updating a parent portal user."
@@ -82,6 +87,11 @@
     `username` not supplied for a normal family
     ```javascript
     "username": "'username' required for creating a parent portal user."
+    ```
+
+    `username` used by a normal family
+    ```javascript
+    "username": "'username' is used by another Parent."
     ```
     
 * **Sample Parameters:**

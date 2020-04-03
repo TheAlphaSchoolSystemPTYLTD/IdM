@@ -30,11 +30,17 @@
 
     `web_access [string]` - web_access
 
+    `add_nums [string]` - add_nums can be supplied for creating/updating a split family record
+
    **Conditional:**
 
     `user_code [string]` - Parent Code must be supplied if 'username' is not
 
     `username [string]` - Parent Portal Username must be supplied if 'user_code' is not
+
+    `sfa_num [string]` - sfa_num must be supplied for creating/updating a split family record
+
+    `stud_codes [string]` - stud_codes must be supplied for creating a split family record, and must be current student(s)
 
 * **Success Response:**
 
@@ -62,6 +68,21 @@
     `sfa_num` not supplied for a split family
     ```javascript
     "sfa_num": "'sfa_num' required for split family."
+    ```
+
+    `add_nums` not supplied for a split family
+    ```javascript
+    "add_nums": "'add_nums' required for creating a split family record."
+    ```
+
+    `stud_codes` not supplied for a split family
+    ```javascript
+    "stud_codes": "'stud_codes' required for creating a split family record."
+    ```
+
+    `stud_codes` include non-current student(s)
+    ```javascript
+    "stud_codes": "'[stud_code]' is not a current student."
     ```
 
     `username` not supplied for a split family

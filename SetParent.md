@@ -30,7 +30,9 @@
 
     `web_access [string]` - web_access
 
-    `add_nums [string]` - add_nums can be supplied for creating/updating a split family record
+    `stud_codes [string]` - stud_codes is , and must be current student(s)
+
+    `add_nums [string]` - add_nums is optional for updating a split family record
 
    **Conditional:**
 
@@ -40,7 +42,9 @@
 
     `sfa_num [string]` - sfa_num must be supplied for creating/updating a split family record
 
-    `stud_codes [string]` - stud_codes must be supplied for creating a split family record, and must be current student(s)
+    `stud_codes [string]` - stud_codes must be supplied for creating a split family record, and will be optional for updating a split family record. Must be current student(s)
+
+    `add_nums [string]` - add_nums must be be supplied for creating a split family record, and will be optional for updating a split family record.
 
 * **Success Response:**
 
@@ -120,6 +124,8 @@
 	```javascript
 	{
         "user_code":"000003",
+        "sfa":"1",
+        "stud_codes":"0009130,0009131",
         "web_access":"Y",
         "username":"agnew"
     }

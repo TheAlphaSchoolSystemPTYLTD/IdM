@@ -1,4 +1,4 @@
-**EditAdminUserRoles**
+**SetAdminUserRoles**
 ----
 	Returns "success" message, or a structure of invalid validations "error" message belonging to the admin user.
 
@@ -81,14 +81,14 @@
 * **Sample GET:** (With URL Encoded `token`)
 
 	```HTML
-	http://api.tasscloud.com.au/tassweb/api/?appcode=API23&v=3&method=EditAdminUserRoles&token=3w6XHPP1j163aHf%2FHRAnLA%3D%3D&company=10
+	http://api.tasscloud.com.au/tassweb/api/?appcode=API23&v=3&method=SetAdminUserRoles&token=3w6XHPP1j163aHf%2FHRAnLA%3D%3D&company=10
 	```
   
 * **Sample POST:**
 
 	```HTML
 	<form id="postForm" name="postForm" method="POST" action="http://api.tasscloud.com.au/tassweb/api/">
-		<input type="hidden" name="method" value="EditAdminUserRoles" />
+		<input type="hidden" name="method" value="SetAdminUserRoles" />
 		<input type="hidden" name="appcode" value="API23" />
 		<input type="hidden" name="company" value="10" />
 		<input type="hidden" name="v" value="3" />

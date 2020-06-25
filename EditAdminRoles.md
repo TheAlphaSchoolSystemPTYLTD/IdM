@@ -22,9 +22,9 @@
 
    **Required:**
  
-	`user_code [string]` - One of a list of Admin sign_on_code
+	`user_code [string]` - One Admin User sign_on_code
 
-	`roles [string]` - A list of secrole_code to be added to the admin user
+	`roles [string]` - A list of secrole_code to replace current admin user roles
 
    **Optional:**
 

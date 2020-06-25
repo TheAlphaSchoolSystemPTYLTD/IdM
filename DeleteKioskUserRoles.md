@@ -22,7 +22,7 @@
 
    **Required:**
  
-	`user_code [string]` - One of a list of Kiosk User sign_on_code
+	`user_code [string]` - One Kiosk User sign_on_code
 
 	`roles [string]` - A list of secrole_code to be added to the Kiosk user
 

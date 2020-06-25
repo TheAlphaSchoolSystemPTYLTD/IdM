@@ -26,7 +26,7 @@
 
    **Optional:**
 
-	`secrole_code [string]` - One of a list of Admin Role Code(s)
+	`secrole_code [string]` - One or a list of Admin Role Code(s)
 
    **Conditional:**
 

@@ -22,7 +22,7 @@
 
    **Required:**
  
-	`user_code [string]` - One of a list of Kiosk User sign_on_code
+	`user_code [string]` - One or a list of Kiosk User sign_on_code
 
    **Optional:**
 

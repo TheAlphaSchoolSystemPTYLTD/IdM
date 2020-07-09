@@ -26,7 +26,7 @@
 
    **Optional:**
 
-	`secrole_code [string]` - One or a list of Admin Role Code(s)
+	`code [string]` - One or a list of Admin Role Code(s)
 
    **Conditional:**
 
@@ -60,7 +60,7 @@
 	        }
 	    ],
 	    "token":{
-	        "secrole_code":"SEC",
+	        "code":"SEC",
 	        "timestamp":"{ts '2020-06-24 09:31:22'}",
 	        "include_members":true
 	    }
@@ -84,7 +84,7 @@
 	```javascript
 	{
 		"include_members":"true",
-		"secrole_code":"SEC"
+		"code":"SEC"
 	}
 	```
 

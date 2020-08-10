@@ -40,7 +40,7 @@
 	        "user_code":"james",
 	        "timestamp":"{ts '2020-03-27 10:48:57'}"
 	    },
-	    "students":{
+	    "admins":{
 	        "1":{
 	            "user_code":"james",
 	            "username":"",

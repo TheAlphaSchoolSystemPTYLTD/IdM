@@ -22,7 +22,7 @@
 
    **Required:**
  
-	`user_code [string]` - One or a list of Student Code(s) OR "ALL"
+	`user_code [string]` - One or a list of User Code(s) OR "ALL"
 
    **Optional:**
 

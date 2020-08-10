@@ -26,7 +26,7 @@
 
    **Optional:**
 
-	`code [string]` - One or a list of Admin Role Code(s)
+	`code [string]` - One or a list of Kiosk Role Code(s)
 
    **Conditional:**
 

@@ -30,7 +30,7 @@
 
     `web_access [string]` - web_access
 
-    `stud_codes [string]` - stud_codes is , and must be current student(s)
+    `stud_codes [string]` - student codes, must be current student(s)
 
     `add_nums [string]` - add_nums is optional for updating a split family record
 
@@ -124,7 +124,7 @@
 	```javascript
 	{
         "user_code":"000003",
-        "sfa":"1",
+        "sfa_num":"1",
         "stud_codes":"0009130,0009131",
         "web_access":"Y",
         "username":"agnew"

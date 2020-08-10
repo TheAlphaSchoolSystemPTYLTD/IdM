@@ -32,9 +32,9 @@
 
    **Conditional:**
 
-	`user_code [string]` - Student Code must be supplied if 'username' is not
+	`user_code [string]` - User Code must be supplied if 'username' is not
 
-    `username [string]` - Student Portal Username must be supplied if 'user_code' is not
+    `username [string]` - Username must be supplied if 'user_code' is not
 
 * **Success Response:**
 

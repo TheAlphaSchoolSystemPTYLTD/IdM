@@ -1,10 +1,10 @@
-**getAdmins**
+**GetAdminUserRoles**
 ----
-	Returns an array of structured admin user data in JSON format.
+	Returns an array of structured admin user roles data in JSON format.
 
 * **Version History:**
 
-	TASS v52.6 - Method Added
+	TASS v53.0 - Method Added
 
 * **Version:**
 
@@ -22,7 +22,7 @@
 
    **Required:**
  
-	`user_code [string]` - One or a list of User Code(s) OR "ALL"
+	`user_code [string]` - One or a list of Admin User Code(s) OR "ALL"
 
    **Optional:**
 
@@ -35,18 +35,29 @@
 * **Success Response:**
 
     ```javascript
-    {
-	    "token":{
-	        "user_code":"james",
-	        "timestamp":"{ts '2020-03-27 10:48:57'}"
-	    },
-	    "students":{
-	        "1":{
-	            "user_code":"james",
-	            "username":"",
-	            "e_mail":"james@tassweb.com.au",
-	            "name":"System Administrator"
+	{
+	    "userRoles":[
+	        {
+	            "user_code":"jack",
+	            "roles":[
+	                "SEC",
+	                "PAR",
+	                "SR",
+	                "ACC",
+	                "ADM",
+	                "ENR",
+	                "FUN",
+	                "PSR",
+	                "PUR",
+	                "SMR",
+	                "TCH",
+	                "FA1"
+	            ]
 	        }
+	    ],
+	    "token":{
+	        "user_code":"jack",
+	        "timestamp":"{ts '2020-06-24 10:20:13'}"
 	    }
 	}
     ```
@@ -62,21 +73,21 @@
 
 	```javascript
 	{
-		"user_code":"root"
+		"user_code":"jack"
 	}
 	```
 
 * **Sample GET:** (With URL Encoded `token`)
 
 	```HTML
-	http://api.tasscloud.com.au/tassweb/api/?appcode=API23&v=3&method=GetAdmins&token=3w6XHPP1j163aHf%2FHRAnLA%3D%3D&company=10
+	http://api.tasscloud.com.au/tassweb/api/?appcode=API23&v=3&method=GetAdminUserRoles&token=3w6XHPP1j163aHf%2FHRAnLA%3D%3D&company=10
 	```
   
 * **Sample POST:**
 
 	```HTML
 	<form id="postForm" name="postForm" method="POST" action="http://api.tasscloud.com.au/tassweb/api/">
-		<input type="hidden" name="method" value="GetAdmins" />
+		<input type="hidden" name="method" value="GetAdminUserRoles" />
 		<input type="hidden" name="appcode" value="API23" />
 		<input type="hidden" name="company" value="10" />
 		<input type="hidden" name="v" value="3" />

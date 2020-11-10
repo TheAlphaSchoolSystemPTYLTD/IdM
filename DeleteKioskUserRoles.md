@@ -24,7 +24,7 @@
  
 	`user_code [string]` - One Kiosk User sign_on_code
 
-	`roles [string]` - A list of secrole_code to be added to the Kiosk user
+	`roles [string]` - A list of secrole_code to be deleted to the Kiosk user
 
    **Optional:**
 

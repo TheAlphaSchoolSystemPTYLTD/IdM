@@ -24,7 +24,7 @@
  
 	`user_code [string]` - One Admin sign_on_code
 
-	`roles [string]` - A list of secrole_code to be added to the admin user
+	`roles [string]` - A list of secrole_code to be deleted to the admin user
 
    **Optional:**
 

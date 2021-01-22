@@ -46,9 +46,10 @@
 	            "roles":"TCH"
 	        }
 	    ],
+	    "__tassversion": "01.053.3.000",
 	    "token":{
 	        "user_code":"AJ,KAT",
-	        "timestamp":"{ts '2020-06-24 18:39:08'}"
+	        "timestamp":"{ts '2021-01-22 18:39:08'}"
 	    }
 	}
     ```

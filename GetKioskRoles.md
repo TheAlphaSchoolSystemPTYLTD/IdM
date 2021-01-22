@@ -42,9 +42,10 @@
 	            "desc":"Administration User Group"
 	        }
 	    ],
+	    "__tassversion": "01.053.3.000",
 	    "token":{
 	        "code":"ADM001",
-	        "timestamp":"{ts '2020-06-24 15:35:02'}",
+	        "timestamp":"{ts '2021-01-22 15:35:02'}",
 	        "include_members":false
 	    }
 	}

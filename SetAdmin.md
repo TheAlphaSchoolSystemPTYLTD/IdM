@@ -39,7 +39,16 @@
 * **Success Response:**
 
     ```javascript
-    "success": "You successfully updated a admin user."
+    {
+      "success": "You successfully updated a admin user.",
+      "__tassversion": "01.053.3.000",
+      "token": {
+        "user_code":"adam001",
+        "timestamp": "{ts '2021-01-22 16:29:03'}",
+        "e_mail":"adam@tassweb.com.au",
+        "username":"adam"
+      }
+    }
     ```
  
 * **Error Response:**

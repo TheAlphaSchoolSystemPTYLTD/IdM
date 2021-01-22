@@ -45,7 +45,16 @@
 * **Success Response:**
 
     ```javascript
-    "success": "You successfully updated an employee."
+    {
+      "success": "You successfully updated an employee.",
+      "__tassversion": "01.053.3.000",
+      "token": {
+        "user_code":"000003",
+        "username":"baskins",
+        "timestamp": "{ts '2021-01-22 16:29:03'}",
+        "e_mail":"abaskins@alphabus.com.au"
+      }
+    }
     ```
  
 * **Error Response:**

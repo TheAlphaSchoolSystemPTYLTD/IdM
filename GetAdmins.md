@@ -36,9 +36,10 @@
 
     ```javascript
     {
+    	"__tassversion": "01.053.3.000",
 	    "token":{
 	        "user_code":"james",
-	        "timestamp":"{ts '2020-03-27 10:48:57'}"
+	        "timestamp":"{ts '2021-01-22 10:48:57'}"
 	    },
 	    "admins":{
 	        "1":{

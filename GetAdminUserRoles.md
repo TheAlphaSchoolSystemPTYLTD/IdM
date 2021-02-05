@@ -55,9 +55,10 @@
 	            ]
 	        }
 	    ],
+	    "__tassversion": "01.053.3.000",
 	    "token":{
 	        "user_code":"jack",
-	        "timestamp":"{ts '2020-06-24 10:20:13'}"
+	        "timestamp":"{ts '2021-01-22 10:20:13'}"
 	    }
 	}
     ```

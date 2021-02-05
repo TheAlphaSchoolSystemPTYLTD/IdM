@@ -39,10 +39,11 @@
     ```javascript
 	{
 	    "success":"Roles updated for AJ.",
+	    "__tassversion": "01.053.3.000",
 	    "token":{
 	        "user_code":"AJ",
 	        "roles":"WEB",
-	        "timestamp":"{ts '2020-06-24 17:29:09'}"
+	        "timestamp":"{ts '2021-01-22 17:29:09'}"
 	    }
 	}
     ```

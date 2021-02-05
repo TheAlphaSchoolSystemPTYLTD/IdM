@@ -49,7 +49,18 @@
 * **Success Response:**
 
     ```javascript
-    "success": "You successfully updated a parent."
+    {
+      "success": "You successfully updated a parent.",
+      "__tassversion": "01.053.3.000",
+      "token": {
+        "web_access": "Y",
+        "user_code": "000003",
+        "stud_codes": "0009130,0009131",
+        "timestamp": "{ts '2021-01-22 16:34:13'}",
+        "username": "agnew",
+        "sfa_num": 1
+      }
+    }
     ```
  
 * **Error Response:**

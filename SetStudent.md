@@ -47,7 +47,15 @@
 * **Success Response:**
 
     ```javascript
-    "success": "You successfully updated a student."
+    {
+      "success": "You successfully updated a student.",
+      "__tassversion": "01.053.3.000",
+      "token": {
+        "user_code": "0009131",
+        "timestamp": "{ts '2021-01-22 16:35:33'}",
+        "username": "wHarry"
+      }
+    }
     ```
  
 * **Error Response:**

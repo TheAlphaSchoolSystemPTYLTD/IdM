@@ -57,9 +57,10 @@
 	            "title":"Mr"
 	        }
 	    ],
+	    "__tassversion": "01.053.3.000",
 	    "token":{
 	        "user_code":1000002,
-	        "timestamp":"{ts '2020-03-27 10:41:50'}"
+	        "timestamp":"{ts '2021-01-22 10:41:50'}"
 	    }
 	}
     ```

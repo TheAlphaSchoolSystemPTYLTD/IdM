@@ -59,9 +59,10 @@
 	            "desc":"Extra Curricular"
 	        }
 	    ],
+	    "__tassversion": "01.053.3.000",
 	    "token":{
 	        "code":"SEC",
-	        "timestamp":"{ts '2020-06-24 09:31:22'}",
+	        "timestamp":"{ts '2021-01-22 09:31:22'}",
 	        "include_members":true
 	    }
 	}

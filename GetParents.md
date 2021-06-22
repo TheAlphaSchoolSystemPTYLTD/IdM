@@ -5,6 +5,7 @@
 * **Version History:**
 
 	TASS v52.6 - Method Added
+	
 	TASS v54.4 PR3 - Addition of "email1" and "email2" keys within parent address for non split families. These keys are recommended to keep in line with split families.
 
 * **Version:**

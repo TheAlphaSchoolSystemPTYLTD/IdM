@@ -32,8 +32,6 @@
 
     `school_email [string]` - School Email Address
 
-    `idm [string]` - idm
-
    **Conditional:**
 
     `user_code [string]` - Employee Code must be supplied if 'username' is not

@@ -41,6 +41,8 @@
 	            "initials":"P",
 	            "suffix":"",
 	            "surname":"Baskins",
+	            "is_teacher":"Y",
+	            "tch_code": "AJ",
 	            "ceider":"",
 	            "end_date":"",
 	            "start_date":"2007-06-25 00:00:00.0",

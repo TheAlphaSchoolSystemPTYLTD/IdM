@@ -6,6 +6,8 @@
 
 	TASS v52.6 - Method Added
 
+	TASS v57.8 - Fields tch_code & is_teacher are included
+
 * **Version:**
 
 	3

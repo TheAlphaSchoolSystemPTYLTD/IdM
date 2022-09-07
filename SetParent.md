@@ -6,6 +6,8 @@
 
 	TASS v52.6 - Method Added
 
+	TASS v57.10 - Required fields updated
+
 * **Version:**
 
 	3
@@ -22,11 +24,11 @@
 
    **Required:**
  
-    none
+    `user_code [string]` - Parent Code must be supplied.
+
+    `username [string]` - Parent Portal Username must be supplied.
 
    **Optional:**
-
-    `username [string]` - username (will be used for creating new portalusers record)
 
     `web_access [string]` - web_access
 
@@ -35,10 +37,6 @@
     `add_nums [string]` - add_nums is optional for updating a split family record
 
    **Conditional:**
-
-    `user_code [string]` - Parent Code must be supplied if 'username' is not
-
-    `username [string]` - Parent Portal Username must be supplied if 'user_code' is not
 
     `sfa_num [string]` - sfa_num must be supplied for creating/updating a split family record
 
@@ -49,25 +47,26 @@
 * **Success Response:**
 
     ```javascript
-    {
-      "success": "You successfully updated a parent.",
-      "__tassversion": "01.053.3.000",
-      "token": {
-        "web_access": "Y",
-        "user_code": "000003",
-        "stud_codes": "0009130,0009131",
-        "timestamp": "{ts '2021-01-22 16:34:13'}",
-        "username": "agnew",
-        "sfa_num": 1
-      }
-    }
+		{
+			"success": "You successfully updated a parent.",
+			"__tassversion": "01.057.10.000",
+			"token": {
+				"web_access": "Y",
+				"user_code": "000003",
+				"add_nums": 1,
+				"stud_codes": "0009130,0009131",
+				"timestamp": "{ts '2022-09-07 11:26:45'}",
+				"username": "agnew",
+				"sfa_num": 1
+			}
+		}
     ```
  
 * **Error Response:**
 
-    `user_code` AND `username` both not supplied
+    `user_code` or `username` not supplied
     ```javascript
-    "required": "user_code' or 'username' must be defined."
+    "required": "user_code' AND 'username' must both be defined."
     ```
 
     `web_access` not 'Y' or 'N'
@@ -100,29 +99,9 @@
     "stud_codes": "'[stud_code]' is not a current student."
     ```
 
-    `username` not supplied for a split family
-    ```javascript
-    "username": "'username' required for updating a split family."
-    ```
-
-    `username` not supplied for a split family
-    ```javascript
-    "username": "'username' required for creating a split family."
-    ```
-
     `username` used by a split family
     ```javascript
     "username": "'username' is already being used by another Split Family."
-    ```
-
-    `username` not supplied for another Parent
-    ```javascript
-    "username": "'username' required for updating a parent portal user."
-    ```
-
-    `username` not supplied for another Parent
-    ```javascript
-    "username": "'username' required for creating a parent portal user."
     ```
 
     `username` used by another Parent
@@ -136,6 +115,7 @@
 	{
         "user_code":"000003",
         "sfa_num":"1",
+        "add_nums":"1",
         "stud_codes":"0009130,0009131",
         "web_access":"Y",
         "username":"agnew"

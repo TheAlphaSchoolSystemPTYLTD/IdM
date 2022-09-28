@@ -8,6 +8,8 @@
 
 	TASS v57.8 - Fields tch_code & is_teacher are included
 
+	TASS v57.11 - Add `person_num` in returned data
+
 * **Version:**
 
 	3
@@ -51,6 +53,7 @@
 	            "e_mail":"jeandoe@alphabus.com.au",
 	            "departments":"",
 	            "school_email":"jeandoe@tassweb.com.au",
+	            "person_num": 847,
 	            "first_name":"Jean",
 	            "web_access":false,
 	            "user_code":1000002,
@@ -61,10 +64,10 @@
 	            "title":"Mr"
 	        }
 	    ],
-	    "__tassversion": "01.053.3.000",
+	    "__tassversion": "01.057.11.000",
 	    "token":{
 	        "user_code":1000002,
-	        "timestamp":"{ts '2021-01-22 10:41:50'}"
+	        "timestamp":"{ts '2022-09-28 16:43:51'}"
 	    }
 	}
     ```

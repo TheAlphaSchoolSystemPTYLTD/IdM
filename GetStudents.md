@@ -6,6 +6,8 @@
 
 	TASS v52.6 - Method Added
 
+	TASS v57.11 - Add `person_num` in returned data
+
 * **Version:**
 
 	3
@@ -36,10 +38,10 @@
 
     ```javascript
     {
-    	"__tassversion": "01.053.3.000",
+		"__tassversion": "01.057.11.000",
 	    "token":{
 	        "user_code":"0009130",
-	        "timestamp":"{ts '2021-01-22 10:35:31'}"
+	        "timestamp":"{ts '2022-09-28 16:43:51'}"
 	    },
 	    "students":[
 	        {
@@ -47,6 +49,7 @@
 	            "surname":"Clark",
 	            "expiry":"",
 	            "e_mail":"andy.clark@tassweb.com.au",
+	            "person_num": 377,
 	            "first_name":"jean",
 	            "campus_code":"SE",
 	            "alt_id":"FOREVERCLARK",

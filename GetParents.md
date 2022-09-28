@@ -40,7 +40,6 @@
 
     ```javascript
     {
-		"__tassversion": "01.054.4.094",
 		"parents": [{
 				"000007": [{
 						"web_access": true,
@@ -186,6 +185,7 @@
 				}
 			}
 		],
+		"__tassversion": "01.057.11.000",
 		"token": {
 			"user_code": "002126,000007",
 			"timestamp": "{ts '2022-09-28 16:43:51'}"

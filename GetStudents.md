@@ -38,7 +38,7 @@
 
     ```javascript
     {
-    	"__tassversion": "01.053.3.000",
+		"__tassversion": "01.057.11.000",
 	    "token":{
 	        "user_code":"0009130",
 	        "timestamp":"{ts '2022-09-28 16:43:51'}"

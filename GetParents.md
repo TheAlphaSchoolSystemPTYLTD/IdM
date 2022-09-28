@@ -8,6 +8,8 @@
 	
 	TASS v54.4 PR3 - Addition of "email1" and "email2" keys within parent address for non split families. These keys are recommended to keep in line with split families.
 
+	TASS v57.11 - Add `person_num` & `person_posn` in returned data
+
 * **Version:**
 
 	3
@@ -47,19 +49,23 @@
 							"initials": "J",
 							"suffix": "",
 							"surname": "Allen",
+							"person_posn": 2,
 							"description": "Father/Parent 2",
 							"preferred_name": "James",
 							"other_name": "",
 							"title": "",
 							"e_mail": "",
+							"person_num": 287,
 							"first_name": "James"
 						},
 						"address": {
 							"1": {
+								"person_posn": "",
 								"email2": "JamesAllen2@testing.com",
 								"email1": "JamesAllen1@testing.com"
 							},
 							"6": {
+								"person_posn": 1,
 								"email2": "",
 								"email1": ""
 							}
@@ -68,11 +74,13 @@
 							"initials": "J",
 							"suffix": "",
 							"surname": "Allen",
+							"person_posn": 1,
 							"description": "Mother/Parent 1",
 							"preferred_name": "Judy",
 							"other_name": "",
 							"title": "",
 							"e_mail": "",
+							"person_num": 288,
 							"first_name": "Judy"
 						},
 						"username": "fwfwrfef",
@@ -92,15 +100,18 @@
 							"initials": "J",
 							"suffix": "",
 							"surname": "Allen",
+							"person_posn": 2,
 							"description": "Father/Parent 2",
 							"preferred_name": "James",
 							"other_name": "",
 							"title": "",
 							"e_mail": "",
+							"person_num": 287,
 							"first_name": "James"
 						},
 						"address": {
 							"7": {
+								"person_posn": 2,
 								"email2": "",
 								"email1": ""
 							}
@@ -109,11 +120,13 @@
 							"initials": "J",
 							"suffix": "",
 							"surname": "Allen",
+							"person_posn": 1,
 							"description": "Mother/Parent 1",
 							"preferred_name": "Judy",
 							"other_name": "",
 							"title": "",
 							"e_mail": "",
+							"person_num": 288,
 							"first_name": "Judy"
 						},
 						"username": "adfgaddg",
@@ -135,15 +148,18 @@
 						"initials": "P",
 						"suffix": "",
 						"surname": "Jackson",
+						"person_posn": 2,
 						"description": "Father/Parent 2",
 						"preferred_name": "Peter",
 						"other_name": "",
 						"title": "",
 						"e_mail": "",
+						"person_num": 298,
 						"first_name": "Peter"
 					},
 					"address": {
 						"1": {
+							"person_posn": "",
 							"email": "P.Jackson@testing.com.au",
 							"email2": "mysecondemail@testing.com.au",
 							"email1": "P.Jackson@testing.com.au"
@@ -153,11 +169,13 @@
 						"initials": "M",
 						"suffix": "",
 						"surname": "Jackson",
+						"person_posn": 1,
 						"description": "Mother/Parent 1",
 						"preferred_name": "Mary",
 						"other_name": "",
 						"title": "",
 						"e_mail": "",
+						"person_num": 299,
 						"first_name": "Mary"
 					},
 					"username": "002126",
@@ -170,7 +188,7 @@
 		],
 		"token": {
 			"user_code": "002126,000007",
-			"timestamp": "{ts '2021-05-27 16:43:51'}"
+			"timestamp": "{ts '2022-09-28 16:43:51'}"
 		}
 	}
     ```

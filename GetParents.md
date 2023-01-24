@@ -11,6 +11,8 @@
 	TASS v57.11 - Add `person_num` & `person_posn` in returned data
 
 	TASS v58.01 - Add `deceased_flg` in returned data
+  
+  TASS v58.02 - Add `par_name` within parent address in returned data
 	
 * **Version:**
 
@@ -63,11 +65,13 @@
 						"address": {
 							"1": {
 								"person_posn": "",
+								"par_name": "Mr & Mrs Allen",
 								"email2": "JamesAllen2@testing.com",
 								"email1": "JamesAllen1@testing.com"
 							},
 							"6": {
 								"person_posn": 1,
+								"par_name": "Mrs Janet Allen",
 								"email2": "",
 								"email1": ""
 							}
@@ -116,6 +120,7 @@
 						"address": {
 							"7": {
 								"person_posn": 2,
+								"par_name": "",
 								"email2": "",
 								"email1": ""
 							}
@@ -166,6 +171,7 @@
 					"address": {
 						"1": {
 							"person_posn": "",
+							"par_name": "Mr Peter Jackson"
 							"email": "P.Jackson@testing.com.au",
 							"email2": "mysecondemail@testing.com.au",
 							"email1": "P.Jackson@testing.com.au"

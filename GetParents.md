@@ -10,6 +10,8 @@
 
 	TASS v57.11 - Add `person_num` & `person_posn` in returned data
 
+	TASS v58.01 - Add `deceased_flg` in returned data
+	
 * **Version:**
 
 	3
@@ -55,7 +57,8 @@
 							"title": "",
 							"e_mail": "",
 							"person_num": 287,
-							"first_name": "James"
+							"first_name": "James",
+							"deceased_flg": "N"
 						},
 						"address": {
 							"1": {
@@ -80,7 +83,8 @@
 							"title": "",
 							"e_mail": "",
 							"person_num": 288,
-							"first_name": "Judy"
+							"first_name": "Judy",
+							"deceased_flg": "N"
 						},
 						"username": "fwfwrfef",
 						"sfa_num": 1,
@@ -106,7 +110,8 @@
 							"title": "",
 							"e_mail": "",
 							"person_num": 287,
-							"first_name": "James"
+							"first_name": "James",
+							"deceased_flg": "N"
 						},
 						"address": {
 							"7": {
@@ -126,7 +131,8 @@
 							"title": "",
 							"e_mail": "",
 							"person_num": 288,
-							"first_name": "Judy"
+							"first_name": "Judy",
+							"deceased_flg": "N"
 						},
 						"username": "adfgaddg",
 						"sfa_num": 2,
@@ -154,7 +160,8 @@
 						"title": "",
 						"e_mail": "",
 						"person_num": 298,
-						"first_name": "Peter"
+						"first_name": "Peter",
+						"deceased_flg": "N"
 					},
 					"address": {
 						"1": {
@@ -175,7 +182,8 @@
 						"title": "",
 						"e_mail": "",
 						"person_num": 299,
-						"first_name": "Mary"
+						"first_name": "Mary",
+						"deceased_flg": "N"
 					},
 					"username": "002126",
 					"sfa_num": "",
